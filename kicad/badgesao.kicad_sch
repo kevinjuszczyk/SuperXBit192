@@ -6137,10 +6137,6 @@
 		(uuid "284f8b0c-cf8f-45d5-a53c-a9dffb4422bc")
 	)
 	(no_connect
-		(at 151.13 203.2)
-		(uuid "46c8162b-6bcd-46ca-a21e-9f31adf44fb1")
-	)
-	(no_connect
 		(at 151.13 167.64)
 		(uuid "46edf147-70c2-49ed-adb4-8feadd49a5d2")
 	)
@@ -6151,10 +6147,6 @@
 	(no_connect
 		(at 151.13 200.66)
 		(uuid "7cb0b655-1d18-42da-ab18-274b0d50da56")
-	)
-	(no_connect
-		(at 151.13 215.9)
-		(uuid "b4234ecb-d923-498a-9885-2aff30e4c6c0")
 	)
 	(no_connect
 		(at 359.41 182.88)
@@ -6377,6 +6369,16 @@
 			(type default)
 		)
 		(uuid "16dfd0f9-3956-4422-ab96-9d218b773823")
+	)
+	(wire
+		(pts
+			(xy 151.13 215.9) (xy 166.37 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1771f2aa-c774-48e9-aa14-e8faa01f89b4")
 	)
 	(wire
 		(pts
@@ -6687,6 +6689,16 @@
 			(type default)
 		)
 		(uuid "3e9275d8-7fc5-44c9-bea4-88491a4f09d5")
+	)
+	(wire
+		(pts
+			(xy 166.37 203.2) (xy 151.13 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fddc4ee-c134-40a3-8100-57427305ca06")
 	)
 	(wire
 		(pts
@@ -8648,6 +8660,17 @@
 		)
 		(uuid "177ad498-bb41-4c0c-9227-5482c98a613b")
 	)
+	(label "BUZZER"
+		(at 166.37 203.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ee165ee-1a10-4c47-8b1b-d2c434d66906")
+	)
 	(label "BLINKENLIGHT"
 		(at 166.37 154.94 180)
 		(fields_autoplaced yes)
@@ -9076,6 +9099,17 @@
 			(justify left bottom)
 		)
 		(uuid "a8aa9fca-5d24-4891-b518-f49115f9167b")
+	)
+	(label "BOOTSEL"
+		(at 166.37 215.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa7bcad1-34c2-4a93-bbb8-2d545e58f749")
 	)
 	(label "B"
 		(at 166.37 162.56 180)
