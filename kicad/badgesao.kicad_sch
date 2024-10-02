@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "7c154595-f1fc-4921-9762-7d3245d61587")
 	(paper "A3")
+	(title_block
+		(title "SuperXBit192")
+		(date "2024-10-01")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "3rdparty:CMT-5023S-SMT-TR"
 			(pin_names
@@ -5839,6 +5844,12 @@
 		(uuid "02b1059d-2541-48fe-8af4-6484afb6ba91")
 	)
 	(junction
+		(at 270.51 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03e30f53-6714-41bd-83ed-25f019e85171")
+	)
+	(junction
 		(at 285.75 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6001,6 +6012,12 @@
 		(uuid "8f4e6432-bc6c-40d3-a352-b41f74781b94")
 	)
 	(junction
+		(at 285.75 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9232b283-db6b-4600-a50d-e35e1b848e61")
+	)
+	(junction
 		(at 359.41 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6103,6 +6120,12 @@
 		(uuid "d96eed99-19a2-4e05-aa27-f0f08730b37d")
 	)
 	(junction
+		(at 288.29 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df41e8c7-7c7c-4459-a132-3589293117bf")
+	)
+	(junction
 		(at 238.76 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6121,6 +6144,10 @@
 		(uuid "f092f168-bb2f-4e5d-8333-bb74a96ff2aa")
 	)
 	(no_connect
+		(at 151.13 203.2)
+		(uuid "014c708d-4c0d-4a2a-b83d-03cb129137b4")
+	)
+	(no_connect
 		(at 151.13 157.48)
 		(uuid "11df3f0e-e53b-4fc6-ac48-4dac687db196")
 	)
@@ -6129,11 +6156,15 @@
 		(uuid "17405276-82ce-42d0-b40a-55af2dd778f3")
 	)
 	(no_connect
+		(at 151.13 215.9)
+		(uuid "1ea70186-3d0f-4ff9-acea-a2e8a51f1986")
+	)
+	(no_connect
 		(at 151.13 198.12)
 		(uuid "2207abee-78b2-40ae-92d4-13303b9ee7f0")
 	)
 	(no_connect
-		(at 151.13 172.72)
+		(at 151.13 180.34)
 		(uuid "284f8b0c-cf8f-45d5-a53c-a9dffb4422bc")
 	)
 	(no_connect
@@ -6242,17 +6273,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 180.34) (xy 166.37 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "069eb60a-df0c-4222-8f78-9bb39a64e11c")
-	)
-	(wire
-		(pts
-			(xy 151.13 193.04) (xy 166.37 193.04)
+			(xy 151.13 172.72) (xy 166.37 172.72)
 		)
 		(stroke
 			(width 0)
@@ -6282,7 +6303,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 208.28) (xy 166.37 208.28)
+			(xy 151.13 195.58) (xy 166.37 195.58)
 		)
 		(stroke
 			(width 0)
@@ -6362,7 +6383,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 214.63) (xy 285.75 215.9)
+			(xy 285.75 214.63) (xy 285.75 218.44)
 		)
 		(stroke
 			(width 0)
@@ -6372,7 +6393,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 215.9) (xy 166.37 215.9)
+			(xy 151.13 213.36) (xy 166.37 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6692,7 +6713,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 203.2) (xy 151.13 203.2)
+			(xy 166.37 190.5) (xy 151.13 190.5)
 		)
 		(stroke
 			(width 0)
@@ -6729,6 +6750,16 @@
 			(type default)
 		)
 		(uuid "42f0bafa-f299-4bfe-bad3-8444f62d43d2")
+	)
+	(wire
+		(pts
+			(xy 288.29 105.41) (xy 288.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d3e1fc-b32d-419e-b564-38130ed9a2b0")
 	)
 	(wire
 		(pts
@@ -6819,16 +6850,6 @@
 			(type default)
 		)
 		(uuid "52cab3ff-54fa-49c3-9582-6e11ee358219")
-	)
-	(wire
-		(pts
-			(xy 246.38 139.7) (xy 236.22 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "551554a2-c9c3-40fa-9181-04254cf6b059")
 	)
 	(wire
 		(pts
@@ -6952,7 +6973,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 127) (xy 246.38 127)
+			(xy 243.84 127) (xy 246.38 127)
 		)
 		(stroke
 			(width 0)
@@ -7002,6 +7023,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 107.95) (xy 264.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65d7cba8-79b2-4aaf-ab9e-21b6c38cb85d")
+	)
+	(wire
+		(pts
 			(xy 238.76 78.74) (xy 240.03 78.74)
 		)
 		(stroke
@@ -7022,13 +7053,13 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 124.46) (xy 236.22 124.46)
+			(xy 270.51 218.44) (xy 285.75 218.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "664f7645-e56b-4cad-9ca9-9c5969883fd2")
+		(uuid "664972ba-3dc3-4b8d-b9fb-43e1267fdcb3")
 	)
 	(wire
 		(pts
@@ -7232,16 +7263,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 99.06) (xy 238.76 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "800eee63-f261-4a1d-9812-2e8858a82877")
-	)
-	(wire
-		(pts
 			(xy 140.97 106.68) (xy 140.97 107.95)
 		)
 		(stroke
@@ -7249,6 +7270,16 @@
 			(type default)
 		)
 		(uuid "82adbdb4-c06a-432d-b258-b7b0f34593ed")
+	)
+	(wire
+		(pts
+			(xy 285.75 218.44) (xy 285.75 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "836191f6-c309-4ea6-9a05-1ba2f1d400ff")
 	)
 	(wire
 		(pts
@@ -7279,6 +7310,16 @@
 			(type default)
 		)
 		(uuid "85b08c38-9622-43e8-a17d-d460825c1c9f")
+	)
+	(wire
+		(pts
+			(xy 270.51 209.55) (xy 270.51 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "860f6c51-454f-4b45-9850-4b95e501f274")
 	)
 	(wire
 		(pts
@@ -7452,7 +7493,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 190.5) (xy 166.37 190.5)
+			(xy 151.13 182.88) (xy 166.37 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7569,6 +7610,16 @@
 			(type default)
 		)
 		(uuid "a1ad23fd-d696-4d1a-a3c8-e32622def615")
+	)
+	(wire
+		(pts
+			(xy 274.32 105.41) (xy 264.16 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d79f12-6244-43d4-8dc4-07492cc2bb29")
 	)
 	(wire
 		(pts
@@ -7692,7 +7743,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 195.58) (xy 166.37 195.58)
+			(xy 151.13 193.04) (xy 166.37 193.04)
 		)
 		(stroke
 			(width 0)
@@ -7812,6 +7863,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 124.46) (xy 246.38 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50708be-f327-43b2-b990-90650f13d994")
+	)
+	(wire
+		(pts
 			(xy 53.34 170.18) (xy 53.34 171.45)
 		)
 		(stroke
@@ -7902,6 +7963,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 107.95) (xy 288.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cece9bdb-873f-48bd-b0f6-4d0bca1f640b")
+	)
+	(wire
+		(pts
 			(xy 364.49 148.59) (xy 364.49 152.4)
 		)
 		(stroke
@@ -7919,16 +7990,6 @@
 			(type default)
 		)
 		(uuid "d089c4e5-23fb-42b0-ae07-eb15d0dfb2dd")
-	)
-	(wire
-		(pts
-			(xy 151.13 182.88) (xy 166.37 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d29829ec-0cab-44b4-8355-5fe102cf1560")
 	)
 	(wire
 		(pts
@@ -7972,16 +8033,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 107.95) (xy 238.76 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da389a07-963e-41f1-b16a-0bafc8abfc39")
-	)
-	(wire
-		(pts
 			(xy 115.57 106.68) (xy 121.92 106.68)
 		)
 		(stroke
@@ -8012,6 +8063,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 139.7) (xy 246.38 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4eaba4-26e0-4168-a7bd-c2e34d51cfaa")
+	)
+	(wire
+		(pts
 			(xy 166.37 53.34) (xy 166.37 54.61)
 		)
 		(stroke
@@ -8032,7 +8093,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 213.36) (xy 166.37 213.36)
+			(xy 151.13 210.82) (xy 166.37 210.82)
 		)
 		(stroke
 			(width 0)
@@ -8049,6 +8110,16 @@
 			(type default)
 		)
 		(uuid "e175fc51-4bbb-464a-b625-a2051c32c682")
+	)
+	(wire
+		(pts
+			(xy 281.94 105.41) (xy 288.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2bd6028-abac-4400-9744-8874d6405aa6")
 	)
 	(wire
 		(pts
@@ -8272,7 +8343,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 210.82) (xy 166.37 210.82)
+			(xy 151.13 208.28) (xy 166.37 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8379,7 +8450,7 @@
 		)
 		(uuid "03f01f07-9364-49b7-96b0-a0211a2d554e")
 	)
-	(text "0.6V(62k/10k + 1) = 4.3V\n1N5819 will drop another 0.4-0.6V.\nOutput current is limited by the \ninductor saturation to about 2.5A\nIdeally USB will supply most of the\ncurrent if both VCC and VBUS are live."
+	(text "0.6V(200k/33k + 1) = 4.2V\n1N5819 will drop another 0.4-0.6V.\nOutput current is limited by the \ninductor saturation to about 2.5A\nIdeally USB will supply most of the\ncurrent if both VCC and VBUS are live."
 		(exclude_from_sim no)
 		(at 334.264 125.984 0)
 		(effects
@@ -8508,6 +8579,16 @@
 		)
 		(uuid "b0aa71ab-1cbd-4f94-961c-6154c440bf31")
 	)
+	(text "I2C Address\n0x6A"
+		(exclude_from_sim no)
+		(at 242.316 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7ab3a50-a322-4d46-8fe3-18233c2a79aa")
+	)
 	(text "Use internal pullups \nfor these switches. \nWorst case RC constant \nis about 4us."
 		(exclude_from_sim no)
 		(at 272.542 45.974 0)
@@ -8518,9 +8599,9 @@
 		)
 		(uuid "cd596be3-2ec4-4bbf-b044-a13a21363750")
 	)
-	(text "Keep close to RP2040"
+	(text "Keep close to RP2040\nShould be 27 Ohm, but\n33 is close enough and\nis a basic JLCPCB part"
 		(exclude_from_sim no)
-		(at 166.37 125.222 0)
+		(at 166.116 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8540,7 +8621,7 @@
 		(uuid "f794ff83-b446-40ca-a5ff-dfe84e7d0f24")
 	)
 	(label "DOWN"
-		(at 166.37 210.82 180)
+		(at 166.37 208.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8561,17 +8642,6 @@
 		)
 		(uuid "0376dc6e-6aa0-45cf-9a89-29cc02ce8ecc")
 	)
-	(label "SPI0_CSn"
-		(at 166.37 182.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "03b88927-a6a3-42f6-86de-1bc31551732a")
-	)
 	(label "QSPI_SS"
 		(at 107.95 49.53 0)
 		(fields_autoplaced yes)
@@ -8582,6 +8652,17 @@
 			(justify left bottom)
 		)
 		(uuid "08df5a5d-8a6f-435a-8f88-7be831f69646")
+	)
+	(label "I2C1_SCL"
+		(at 264.16 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08f23210-fd30-4f2d-9d71-f00705b9a85c")
 	)
 	(label "USB_DN"
 		(at 161.29 132.08 180)
@@ -8605,8 +8686,8 @@
 		)
 		(uuid "0d130113-3dca-4417-9618-001abc2ceced")
 	)
-	(label "SPI0_INT2"
-		(at 166.37 193.04 180)
+	(label "IMU_INT2"
+		(at 166.37 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8661,7 +8742,7 @@
 		(uuid "177ad498-bb41-4c0c-9227-5482c98a613b")
 	)
 	(label "BUZZER"
-		(at 166.37 203.2 180)
+		(at 166.37 190.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8682,7 +8763,7 @@
 		)
 		(uuid "1f246b06-d090-436b-aab7-a807c8f70916")
 	)
-	(label "SPI0_INT2"
+	(label "IMU_INT2"
 		(at 287.02 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -8781,6 +8862,17 @@
 		)
 		(uuid "434734ce-bb30-4c07-b2b0-ca169c2ae609")
 	)
+	(label "I2C1_SDA"
+		(at 264.16 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4993206c-c16e-45d5-b3ea-5ca9cb78e4f8")
+	)
 	(label "UART0_TX"
 		(at 166.37 139.7 180)
 		(fields_autoplaced yes)
@@ -8837,7 +8929,7 @@
 		(uuid "655b9430-f9ef-4fbb-be5b-3f07663f254d")
 	)
 	(label "LEFT"
-		(at 166.37 208.28 180)
+		(at 166.37 195.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8868,6 +8960,17 @@
 			(justify right bottom)
 		)
 		(uuid "69c86710-2b13-4d72-b2bd-e070ce395ee7")
+	)
+	(label "I2C1_SCL"
+		(at 236.22 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b34a08f-b296-4c8d-85ea-ab1047bc00ac")
 	)
 	(label "UART0_RX"
 		(at 166.37 142.24 180)
@@ -8957,17 +9060,6 @@
 		)
 		(uuid "7d731862-ac71-4073-b513-c8faa034586c")
 	)
-	(label "SPI0_RX"
-		(at 166.37 180.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7d764596-54e3-4cdf-8e42-9ca7291ee457")
-	)
 	(label "UART0_TX_Z"
 		(at 332.74 217.17 0)
 		(fields_autoplaced yes)
@@ -9045,7 +9137,7 @@
 		)
 		(uuid "8f2a4059-e5e0-411c-9649-c134e9b9b38c")
 	)
-	(label "SPI0_INT1"
+	(label "IMU_INT1"
 		(at 287.02 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9056,7 +9148,7 @@
 		)
 		(uuid "90a7bfae-54cd-4251-a06f-96c990764a69")
 	)
-	(label "SPI0_TX"
+	(label "I2C1_SCL"
 		(at 166.37 187.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9078,18 +9170,7 @@
 		)
 		(uuid "9fde62c1-5700-4401-8c56-ce7fb7c07e1f")
 	)
-	(label "SPI0_RX"
-		(at 236.22 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5e8e351-43dc-467c-9929-a1c9516b0afc")
-	)
-	(label "SPI0_TX"
+	(label "I2C1_SDA"
 		(at 236.22 134.62 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9098,10 +9179,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a8aa9fca-5d24-4891-b518-f49115f9167b")
+		(uuid "aa653da5-202d-428a-a6bf-583912aca8e4")
 	)
 	(label "BOOTSEL"
-		(at 166.37 215.9 180)
+		(at 166.37 213.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9210,17 +9291,6 @@
 		)
 		(uuid "c3bcdea6-6543-4b4e-8576-1e02da1a65ce")
 	)
-	(label "SPI0_SCK"
-		(at 236.22 137.16 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6419da1-fb41-498f-b959-ef5e26ca904b")
-	)
 	(label "BLINKENLIGHT"
 		(at 256.54 209.55 180)
 		(fields_autoplaced yes)
@@ -9231,17 +9301,6 @@
 			(justify right bottom)
 		)
 		(uuid "c879e82a-5484-4371-9ea7-c4646ef0cc1e")
-	)
-	(label "SPI0_CSn"
-		(at 236.22 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd839e7f-33bc-42d3-89f0-d2d15f9fda56")
 	)
 	(label "LEFT"
 		(at 256.54 48.26 180)
@@ -9277,7 +9336,7 @@
 		(uuid "d3d6e61f-000f-42f4-a2ec-aa7d35e6e1b7")
 	)
 	(label "UP"
-		(at 166.37 195.58 180)
+		(at 166.37 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9298,7 +9357,7 @@
 		)
 		(uuid "dfc04df9-485b-48d2-9d61-a0eeb609259c")
 	)
-	(label "SPI0_SCK"
+	(label "I2C1_SDA"
 		(at 166.37 185.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9310,7 +9369,7 @@
 		(uuid "e0177827-a662-47f8-8a84-6afb0eea81dc")
 	)
 	(label "RIGHT"
-		(at 166.37 213.36 180)
+		(at 166.37 210.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9364,8 +9423,8 @@
 		)
 		(uuid "f218c89f-eba3-405f-8b0b-d974ec76ec4a")
 	)
-	(label "SPI0_INT1"
-		(at 166.37 190.5 180)
+	(label "IMU_INT1"
+		(at 166.37 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9411,7 +9470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_C-K-PTS810SJM250SMTRLFS_C116501.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070033_C-K-PTS815SJM250SMTRLFS_C2689510.pdf"
 			(at 245.11 24.13 0)
 			(effects
 				(font
@@ -9429,7 +9488,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C116501"
+		(property "LCSC" "C2689510"
 			(at 245.11 29.21 90)
 			(effects
 				(font
@@ -9438,7 +9497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "CKN10502CT-ND"
+		(property "Digikey_Part" "CKN12215-1-ND"
 			(at 245.11 29.21 0)
 			(effects
 				(font
@@ -9456,7 +9515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PTS810SJM250SMTRLFS"
+		(property "Manufacturer_Part_Number" "PTS815SJM250SMTRLFS"
 			(at 245.11 29.21 0)
 			(effects
 				(font
@@ -9939,7 +9998,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_C-K-PTS810SJM250SMTRLFS_C116501.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070033_C-K-PTS815SJM250SMTRLFS_C2689510.pdf"
 			(at 245.11 43.18 0)
 			(effects
 				(font
@@ -9957,7 +10016,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C116501"
+		(property "LCSC" "C2689510"
 			(at 245.11 48.26 90)
 			(effects
 				(font
@@ -9966,7 +10025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "CKN10502CT-ND"
+		(property "Digikey_Part" "CKN12215-1-ND"
 			(at 245.11 48.26 0)
 			(effects
 				(font
@@ -9984,7 +10043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PTS810SJM250SMTRLFS"
+		(property "Manufacturer_Part_Number" "PTS815SJM250SMTRLFS"
 			(at 245.11 48.26 0)
 			(effects
 				(font
@@ -11085,7 +11144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kmj_custom:PTS830GM140SMTRLFS"
+		(property "Footprint" "kmj_custom:SW_SPST_PTS810"
 			(at 267.97 62.23 0)
 			(effects
 				(font
@@ -11094,7 +11153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203281830_C-K-PTS830GG140SMTRLFS_C221902.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070033_C-K-PTS815SJM250SMTRLFS_C2689510.pdf"
 			(at 267.97 62.23 0)
 			(effects
 				(font
@@ -11112,7 +11171,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C221902"
+		(property "LCSC" "C2689510"
 			(at 267.97 67.31 90)
 			(effects
 				(font
@@ -11121,7 +11180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "CKN10588CT-ND"
+		(property "Digikey_Part" "CKN12215-1-ND"
 			(at 267.97 67.31 0)
 			(effects
 				(font
@@ -11139,7 +11198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PTS830GG140SMTRLFS"
+		(property "Manufacturer_Part_Number" "PTS815SJM250SMTRLFS"
 			(at 267.97 67.31 0)
 			(effects
 				(font
@@ -11340,7 +11399,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 127 270)
+		(at 243.84 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11348,7 +11407,7 @@
 		(dnp no)
 		(uuid "2c0ba5dc-6f3e-406d-8d10-048f196d72cf")
 		(property "Reference" "#PWR045"
-			(at 238.76 127 0)
+			(at 243.84 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11357,7 +11416,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 240.538 127 90)
+			(at 243.84 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11365,7 +11424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 127 0)
+			(at 243.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11374,7 +11433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 127 0)
+			(at 243.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11383,7 +11442,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 127 0)
+			(at 243.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +11824,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 285.75 215.9 0)
+		(at 285.75 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11773,7 +11832,7 @@
 		(dnp no)
 		(uuid "33d3848b-33f1-4199-b81b-ab019d70bf6a")
 		(property "Reference" "#PWR046"
-			(at 285.75 222.25 0)
+			(at 285.75 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11782,7 +11841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 285.75 219.71 0)
+			(at 285.75 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,7 +11849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 285.75 215.9 0)
+			(at 285.75 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11799,7 +11858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 215.9 0)
+			(at 285.75 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11808,7 +11867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 285.75 215.9 0)
+			(at 285.75 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11847,7 +11906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "62k"
+		(property "Value" "200k"
 			(at 350.52 99.0599 0)
 			(effects
 				(font
@@ -11883,7 +11942,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2929930"
+		(property "LCSC" "C25764"
 			(at 347.98 97.79 0)
 			(effects
 				(font
@@ -11892,7 +11951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "311-62.0KLRCT-ND"
+		(property "Digikey_Part" "RMCF0402FT200KCT-ND"
 			(at 347.98 97.79 0)
 			(effects
 				(font
@@ -11901,7 +11960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "FOJAN"
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
 			(at 347.98 97.79 0)
 			(effects
 				(font
@@ -11910,7 +11969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "FRC0402J623TS"
+		(property "Manufacturer_Part_Number" "0402WGF2003TCE"
 			(at 347.98 97.79 0)
 			(effects
 				(font
@@ -12167,6 +12226,109 @@
 			(project "badgesao"
 				(path "/7c154595-f1fc-4921-9762-7d3245d61587"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 278.13 107.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "379d88d9-2662-4ee7-96ad-739a65940cb1")
+		(property "Reference" "R18"
+			(at 278.384 112.268 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 278.384 109.982 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 277.876 108.966 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part" "P5.10KLCT-ND"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF5101TCE"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61f05e16-548b-4e7e-93c4-abb1c6c43bcb")
+		)
+		(pin "2"
+			(uuid "3124c200-f145-434c-a2c3-c0827b183fff")
+		)
+		(instances
+			(project "badgesao"
+				(path "/7c154595-f1fc-4921-9762-7d3245d61587"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -12693,7 +12855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_C-K-PTS810SJM250SMTRLFS_C116501.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070033_C-K-PTS815SJM250SMTRLFS_C2689510.pdf"
 			(at 245.11 73.66 0)
 			(effects
 				(font
@@ -12711,7 +12873,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C116501"
+		(property "LCSC" "C2689510"
 			(at 245.11 78.74 90)
 			(effects
 				(font
@@ -12720,7 +12882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "CKN10502CT-ND"
+		(property "Digikey_Part" "CKN12215-1-ND"
 			(at 245.11 78.74 0)
 			(effects
 				(font
@@ -12738,7 +12900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PTS810SJM250SMTRLFS"
+		(property "Manufacturer_Part_Number" "PTS815SJM250SMTRLFS"
 			(at 245.11 78.74 0)
 			(effects
 				(font
@@ -13221,7 +13383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_C-K-PTS810SJM250SMTRLFS_C116501.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070033_C-K-PTS815SJM250SMTRLFS_C2689510.pdf"
 			(at 245.11 33.02 0)
 			(effects
 				(font
@@ -13239,7 +13401,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C116501"
+		(property "LCSC" "C2689510"
 			(at 245.11 38.1 90)
 			(effects
 				(font
@@ -13248,7 +13410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "CKN10502CT-ND"
+		(property "Digikey_Part" "CKN12215-1-ND"
 			(at 245.11 38.1 0)
 			(effects
 				(font
@@ -13266,7 +13428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PTS810SJM250SMTRLFS"
+		(property "Manufacturer_Part_Number" "PTS815SJM250SMTRLFS"
 			(at 245.11 38.1 0)
 			(effects
 				(font
@@ -13350,137 +13512,6 @@
 			(project "badgesao"
 				(path "/7c154595-f1fc-4921-9762-7d3245d61587"
 					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 238.76 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "54a73eab-60b6-4a97-942b-c7fb1eeea09a")
-		(property "Reference" "#PWR040"
-			(at 238.76 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 238.76 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a10c0f5-2f09-4db0-b218-71b7e70b7d53")
-		)
-		(instances
-			(project "badgesao"
-				(path "/7c154595-f1fc-4921-9762-7d3245d61587"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 238.76 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5870b4b7-51c6-4364-b4d8-55d027c655eb")
-		(property "Reference" "#PWR036"
-			(at 238.76 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 242.57 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e528324-fe04-4637-980a-e3c65c41e039")
-		)
-		(instances
-			(project "badgesao"
-				(path "/7c154595-f1fc-4921-9762-7d3245d61587"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -13862,7 +13893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_C-K-PTS810SJM250SMTRLFS_C116501.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070033_C-K-PTS815SJM250SMTRLFS_C2689510.pdf"
 			(at 245.11 63.5 0)
 			(effects
 				(font
@@ -13880,7 +13911,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C116501"
+		(property "LCSC" "C2689510"
 			(at 245.11 68.58 90)
 			(effects
 				(font
@@ -13889,7 +13920,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "CKN10502CT-ND"
+		(property "Digikey_Part" "CKN12215-1-ND"
 			(at 245.11 68.58 0)
 			(effects
 				(font
@@ -13907,7 +13938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PTS810SJM250SMTRLFS"
+		(property "Manufacturer_Part_Number" "PTS815SJM250SMTRLFS"
 			(at 245.11 68.58 0)
 			(effects
 				(font
@@ -14014,7 +14045,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "33"
 			(at 166.37 128.27 90)
 			(effects
 				(font
@@ -14059,7 +14090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "P27.0LCT-ND"
+		(property "Digikey_Part" "P33.0LCT-ND"
 			(at 166.37 132.08 0)
 			(effects
 				(font
@@ -14394,7 +14425,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "33"
 			(at 166.37 127 90)
 			(effects
 				(font
@@ -14438,7 +14469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "P27.0LCT-ND"
+		(property "Digikey_Part" "P33.0LCT-ND"
 			(at 166.37 129.54 0)
 			(effects
 				(font
@@ -15217,6 +15248,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 232.41 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96e0602e-34fe-4a7a-a327-3b0d1efc3942")
+		(property "Reference" "#PWR04"
+			(at 232.41 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 232.156 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a79e78c3-bd4c-41cc-b432-7aa31859b08d")
+		)
+		(instances
+			(project "badgesao"
+				(path "/7c154595-f1fc-4921-9762-7d3245d61587"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 85.09 102.87 0)
 		(unit 1)
@@ -15965,7 +16061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kmj_custom:PTS830GM140SMTRLFS"
+		(property "Footprint" "kmj_custom:SW_SPST_PTS810"
 			(at 267.97 73.66 0)
 			(effects
 				(font
@@ -15974,7 +16070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2203281830_C-K-PTS830GG140SMTRLFS_C221902.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070033_C-K-PTS815SJM250SMTRLFS_C2689510.pdf"
 			(at 267.97 73.66 0)
 			(effects
 				(font
@@ -15992,7 +16088,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C221902"
+		(property "LCSC" "C2689510"
 			(at 267.97 78.74 90)
 			(effects
 				(font
@@ -16001,7 +16097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "CKN10588CT-ND"
+		(property "Digikey_Part" "CKN12215-1-ND"
 			(at 267.97 78.74 0)
 			(effects
 				(font
@@ -16019,7 +16115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PTS830GG140SMTRLFS"
+		(property "Manufacturer_Part_Number" "PTS815SJM250SMTRLFS"
 			(at 267.97 78.74 0)
 			(effects
 				(font
@@ -16487,35 +16583,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 238.76 104.14 0)
+		(lib_id "Device:R_US")
+		(at 270.51 214.63 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad0a7355-2888-4783-b3b3-79a9f37375db")
-		(property "Reference" "C14"
-			(at 242.57 102.8699 0)
+		(uuid "ab82d747-20da-4cee-b5db-fe742d5fce7c")
+		(property "Reference" "R16"
+			(at 273.05 213.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "1u"
-			(at 242.57 105.4099 0)
+		(property "Value" "1k"
+			(at 273.05 215.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 239.7252 107.95 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 269.494 214.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16523,8 +16619,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05A105KA5NQNC_C52923.pdf"
-			(at 238.76 104.14 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010216_UNI-ROYAL-Uniroyal-Elec-0402WGF1001TCE_C11702.pdf"
+			(at 270.51 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16533,7 +16629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 238.76 104.14 0)
+			(at 270.51 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16541,8 +16637,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
-			(at 238.76 104.14 0)
+		(property "LCSC" "C11702"
+			(at 270.51 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16550,8 +16646,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 238.76 104.14 0)
+		(property "Digikey_Part" "311-1.0KJRCT-ND"
+			(at 270.51 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16559,8 +16655,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL05A105KA5NQNC"
-			(at 238.76 104.14 0)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 270.51 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16568,8 +16664,8 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "1276-1445-1-ND"
-			(at 238.76 104.14 0)
+		(property "Manufacturer_Part_Number" "0402WGF1001TCE"
+			(at 270.51 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16578,15 +16674,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6acaf7b6-042b-4122-9231-3661ebbc7465")
+			(uuid "bdb7e77c-34a3-40a1-b87f-3d3072e7c66e")
 		)
 		(pin "2"
-			(uuid "a4cbb4ce-330c-4980-a07f-5b0c4be3bf0c")
+			(uuid "cf9907b4-72a9-4c7b-a802-aba09b82a191")
 		)
 		(instances
 			(project "badgesao"
 				(path "/7c154595-f1fc-4921-9762-7d3245d61587"
-					(reference "C14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -16741,7 +16837,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LSM6DS3"
+		(property "Value" "LSM6DS3TR-C"
 			(at 263.8141 149.86 0)
 			(effects
 				(font
@@ -16760,7 +16856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1810010519_STMicroelectronics-LSM6DS3TR_C95230.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2102261805_STMicroelectronics-LSM6DS3TR-C_C967633.pdf"
 			(at 264.16 148.59 0)
 			(effects
 				(font
@@ -16778,7 +16874,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C95230"
+		(property "LCSC" "C967633"
 			(at 261.62 132.08 0)
 			(effects
 				(font
@@ -16787,7 +16883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "497-15383-1-ND"
+		(property "Digikey_Part" "497-LSM6DS3TR-CTR-ND"
 			(at 261.62 132.08 0)
 			(effects
 				(font
@@ -16805,7 +16901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LSM6DS3TR"
+		(property "Manufacturer_Part_Number" "LSM6DS3TR-C"
 			(at 261.62 132.08 0)
 			(effects
 				(font
@@ -17226,7 +17322,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "33k"
 			(at 350.52 110.4899 0)
 			(effects
 				(font
@@ -17262,7 +17358,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C25779"
 			(at 347.98 109.22 0)
 			(effects
 				(font
@@ -17271,7 +17367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "1276-3431-1-ND"
+		(property "Digikey_Part" "A129645CT-ND"
 			(at 347.98 109.22 0)
 			(effects
 				(font
@@ -17289,7 +17385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0402WGF1002TCE"
+		(property "Manufacturer_Part_Number" "0402WGF3302TCE"
 			(at 347.98 109.22 0)
 			(effects
 				(font
@@ -18686,6 +18782,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 278.13 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df5c5a51-6fa9-4472-9e5f-46faf90dfdf8")
+		(property "Reference" "R17"
+			(at 278.384 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 278.384 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 277.876 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2206010045_UNI-ROYAL-Uniroyal-Elec-0402WGF5101TCE_C25905.pdf"
+			(at 278.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 278.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_Part" "P5.10KLCT-ND"
+			(at 278.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "UNI-ROYAL(Uniroyal Elec)"
+			(at 278.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0402WGF5101TCE"
+			(at 278.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "266f8c41-02ac-45e7-9762-4b8b2711182d")
+		)
+		(pin "2"
+			(uuid "12112bdd-0b9a-4f00-8493-4fad5ebd4703")
+		)
+		(instances
+			(project "badgesao"
+				(path "/7c154595-f1fc-4921-9762-7d3245d61587"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 350.52 27.94 0)
 		(unit 1)
@@ -19123,7 +19322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_C-K-PTS810SJM250SMTRLFS_C116501.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106070033_C-K-PTS815SJM250SMTRLFS_C2689510.pdf"
 			(at 245.11 53.34 0)
 			(effects
 				(font
@@ -19141,7 +19340,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C116501"
+		(property "LCSC" "C2689510"
 			(at 245.11 58.42 90)
 			(effects
 				(font
@@ -19150,7 +19349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey_Part" "CKN10502CT-ND"
+		(property "Digikey_Part" "CKN12215-1-ND"
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -19168,7 +19367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PTS810SJM250SMTRLFS"
+		(property "Manufacturer_Part_Number" "PTS815SJM250SMTRLFS"
 			(at 245.11 58.42 0)
 			(effects
 				(font
@@ -19187,6 +19386,71 @@
 			(project "badgesao"
 				(path "/7c154595-f1fc-4921-9762-7d3245d61587"
 					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 288.29 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0c57298-b0bd-408d-bb42-2c6449fced9a")
+		(property "Reference" "#PWR05"
+			(at 288.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 288.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 288.29 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60b7021a-80e2-49b4-9098-739b1d67f1db")
+		)
+		(instances
+			(project "badgesao"
+				(path "/7c154595-f1fc-4921-9762-7d3245d61587"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
