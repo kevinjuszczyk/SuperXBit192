@@ -1,0 +1,34 @@
+﻿Gerber file:,GERBER-badgesao_Y39
+Base Material:,FR-4
+Dimension:,38.1 mm* 50.8 mm
+Product Type:,Industrial/Consumer electronics
+Delivery Format:,Single PCB
+Impedance Control:,yes JLC06161H-3313
+PCB Color:,Green
+Material Type:,FR4-Standard TG 135-140
+Surface Finish:,"ENIG Gold Fingers: 2U"""
+Outer Copper Weight:,1 oz
+Gold Fingers:,No
+Castellated Holes:,no
+Edge Plating:,No
+Min via hole size/diameter:,0.3mm/(0.4/0.45mm)
+Paper between PCBs:,No
+Confirm Production file:,Yes
+Package Box:,With JLCPCB logo
+Build Time:,3-4 days (PCBA Only)
+Layers:,6
+PCB Qty:,5
+Different Design:,1
+PCB Thickness:,1.6
+Layer Sequence:,
+Silkscreen:,White
+Via Covering:,Epoxy Filled & Capped
+Deburring/Edge rounding:,No
+Inner Copper Weight:,0.5 oz
+Electrical Test:,Flying Probe Fully Test
+Press-Fit Hole:,No
+Mark on PCB,Order Number
+4-Wire Kelvin Test:,No
+Appearance Quality:,IPC Class 2 Standard
+Silkscreen Technology:,Ink-jet/Screen Printing Silkscreen
+Board Outline Tolerance:,±0.2mm(Regular)

@@ -1,14 +1,9 @@
 import board
 import digitalio
 import pwmio
-import audiocore
-import audiopwmio
-import array
 import time
-import math
 
-#TODO: change VOLTAGE_MONITOR pin to reflect new rev1 layout
-sel = digitalio.DigitalInOut(board.VOLTAGE_MONITOR)
+sel = digitalio.DigitalInOut(board.GP28)
 sel.pull = digitalio.Pull.UP
 sel.direction = digitalio.Direction.INPUT
 
@@ -27,13 +22,21 @@ rowyourboat = [
   ("d6", 36), ("c6", 12), ("b5", 36), ("a5", 12), ("g5", 96)
 ]
 
+korobeiniki = [
+    ("e5", 48), ("b4", 24), ("c5", 24), ("d5", 48), ("c5", 24), ("b4", 24), ("a4", 48),
+    ("a4", 24), ("c5", 24), ("e5", 48), ("d5", 24), ("c5", 24), ("b4", 48), ("b4", 48),
+    ("c5", 48), ("d5", 48), ("e5", 48), ("c5", 48), ("a4", 48), ("a4", 48),
+    ("d5", 48), ("f5", 24), ("a5", 24), ("g5", 48), ("f5", 24), ("e5", 24), ("d5", 48),
+    ("e5", 24), ("c5", 24), ("e5", 48), ("d5", 24), ("c5", 24), ("b4", 48), ("b4", 48),
+    ("c5", 48), ("d5", 48), ("e5", 48), ("c5", 48), ("a4", 48), ("a4", 48)
+]
+
 while True:
     if sel.value == False:
-        for (notename, one92nds) in rowyourboat:
+        for (notename, one92nds) in korobeiniki:
             length = one92nds * 0.01
             if notename:
-                #TODO: change GP25 pin to reflect new rev1 layout
-                buzzer = pwmio.PWMOut(board.GP25,frequency=note(notename))
+                buzzer = pwmio.PWMOut(board.GP20,frequency=note(notename))
                 buzzer.duty_cycle = 2 ** 14 #25% duty cycle seems louder than 50%
             time.sleep(length)
             buzzer.deinit()
